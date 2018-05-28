@@ -1,0 +1,39 @@
+"*":
+  "autocomplete-python":
+    useKite: false
+  core:
+    customFileTypes:
+      "source.ini": [
+        ".buckconfig"
+        ".flowconfig"
+        ".hgrc"
+      ]
+      "source.json": [
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
+    disabledPackages: [
+      "tree-view"
+      "image-view"
+    ]
+    telemetryConsent: "limited"
+  editor:
+    showIndentGuide: true
+  "exception-reporting":
+    userId: "fbb6ed9e-f130-4243-a148-058ac35a0d3e"
+  "linter-ui-default":
+    panelHeight: 300
+  nuclide:
+    installRecommendedPackages: true
+    "nuclide-flow":
+      warnOnNotInstalled: false
+    "nuclide-home":
+      showHome: false
+    use: {}
+  "sync-settings": {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
